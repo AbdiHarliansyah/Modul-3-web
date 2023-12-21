@@ -1,0 +1,132 @@
+.logo {
+  position: absolute;
+  top: 33px;
+  left: 34px;
+}
+.about {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.nav-links {
+  position: absolute;
+  top: 34px;
+  left: 272px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.pngwing-1-icon {
+  position: absolute;
+  top: 4px;
+  left: 43px;
+  width: 79px;
+  height: 79px;
+  object-fit: cover;
+}
+.navs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  width: 1921px;
+  height: 101px;
+  overflow: hidden;
+}
+.image-1-icon {
+  position: absolute;
+  top: calc(50% - 439px);
+  left: calc(50% - 960px);
+  width: 1920px;
+  height: 979px;
+  object-fit: cover;
+}
+.mount-fuji,
+.standing-at-3776 {
+  position: absolute;
+  top: 268px;
+  left: calc(50% - 232px);
+  line-height: 25.2px;
+  display: flex;
+  align-items: center;
+  width: 464px;
+}
+.standing-at-3776 {
+  top: 355px;
+  left: calc(50% - 171px);
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  width: 317px;
+}
+.social-icons,
+.social-icons1,
+.social-icons2 {
+  position: absolute;
+  top: 36px;
+  left: 946px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.social-icons1,
+.social-icons2 {
+  left: 835px;
+}
+.social-icons2 {
+  left: 1059px;
+}
+.footer,
+.footer-wrapper {
+  position: absolute;
+  width: 1921px;
+  height: 101px;
+}
+.footer {
+  top: calc(50% - 50.5px);
+  left: calc(50% - 960.5px);
+  background-color: var(--color-gray);
+  overflow: hidden;
+}
+.footer-wrapper {
+  top: calc(50% + 439px);
+  left: calc(50% - 961px);
+}
+.home {
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--white);
+  font-family: var(--font-kaisei-opti);
+}
+@media screen and (max-width: 1200px) {
+  .home {
+    opacity: 0;
+  }
+  .home.animate {
+    animation: 1s ease 1s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}

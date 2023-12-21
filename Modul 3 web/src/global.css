@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABC+Marfa+Variable+Unlicensed+Trial:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-kaisei-opti: "Kaisei Opti";
+  --font-inter: Inter;
+  --font-abc-marfa-variable-unlicensed-trial: "ABC Marfa Variable Unlicensed Trial";
+
+  /* font sizes */
+  --font-size-61xl: 80px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-gray: #0e0e0e;
+  --white: #fff;
+  --font-main: #000;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+}

@@ -1,0 +1,124 @@
+.logo1 {
+  position: absolute;
+  top: 33px;
+  left: 34px;
+}
+.home2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-transform: capitalize;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+}
+.nav-links1 {
+  position: absolute;
+  top: 34px;
+  left: 272px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+.pngwing-1-icon1 {
+  position: absolute;
+  top: 4px;
+  left: 43px;
+  width: 79px;
+  height: 79px;
+  object-fit: cover;
+}
+.image-1-icon1,
+.navs1 {
+  position: absolute;
+  width: 1920px;
+}
+.navs1 {
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray);
+  height: 101px;
+  overflow: hidden;
+}
+.image-1-icon1 {
+  top: calc(50% - 439px);
+  left: calc(50% - 960px);
+  height: 979px;
+  object-fit: cover;
+}
+.social-icons3,
+.social-icons4,
+.social-icons5 {
+  position: absolute;
+  top: 36px;
+  left: 946px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.social-icons4,
+.social-icons5 {
+  left: 835px;
+}
+.social-icons5 {
+  left: 1059px;
+}
+.footer-container,
+.footer1 {
+  position: absolute;
+  width: 1921px;
+  height: 101px;
+}
+.footer1 {
+  top: calc(50% - 50.5px);
+  left: calc(50% - 960.5px);
+  background-color: var(--color-gray);
+  overflow: hidden;
+}
+.footer-container {
+  top: calc(50% + 439px);
+  left: calc(50% - 960px);
+}
+.contact-page {
+  position: absolute;
+  top: 268px;
+  left: calc(50% - 232px);
+  line-height: 25.2px;
+  display: flex;
+  align-items: center;
+  width: 536px;
+}
+.contact1 {
+  position: relative;
+  background: linear-gradient(#fff, #fff), #fff;
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-61xl);
+  color: var(--white);
+  font-family: var(--font-kaisei-opti);
+}
+@media screen and (max-width: 1200px) {
+  .contact1 {
+    opacity: 0;
+  }
+  .contact1.animate {
+    animation: 1s ease 1s 1 normal forwards fade-in;
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
